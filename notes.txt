@@ -1,0 +1,16 @@
+1. To install json server
+
+npm i json-server
+
+json -> database -> db.json
+
+API calls need to be created in front end
+
+serverURL -> http://localhost:4200
+View all Contacts -> GET -> http://localhost:4200/contacts/
+View Single contact -> GET -> http://localhost:4200/contacts/:contactId
+Create a Contact -> POST -> http://localhost:4200/contacts/
+Update a Contact -> PUT -> http://localhost:4200/contacts/:contactId
+Delete a contact -> Delete -> http://localhost:4200/contacts/:contactId
+Get all Groups -> GET -> http://localhost:4200/groups/
+Get a single group -> http://localhost:4200/group/:groupId
